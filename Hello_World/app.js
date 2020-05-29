@@ -3,8 +3,8 @@
 var http = require('http');
 http.createServer(function (req, res) {
     res.writeHead(200, {
-        'Content-Type': 'text/plain'
+        'Content-Type': 'text/plain' // My name is Ramandeep Kaur
     });
     res.end('Hello World');
 }).listen(3000);
-console.log('Server running at http://localhost:3000/');
+console.log('Server running at http://localhost:3000/'); 
